@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	
+	<typeAliases>
+		<typeAlias alias="cycleVo" type="kr.or.ddit.yogult.model.CycleVo" />
+		<typeAlias alias="dailyVo" type="kr.or.ddit.yogult.model.DailyVo" />
+	</typeAliases>
+
+	<mappers>
+		<mapper resource="kr/or/ddit/config/db/mapper/yogult.xml" />		
+	</mappers>
+</configuration>
+
+
+
+
+
+
